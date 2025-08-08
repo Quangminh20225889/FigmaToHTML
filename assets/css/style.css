@@ -16,6 +16,13 @@ body {
 a {
   text-decoration: none;
 }
+.heading-lv2 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 3.8rem;
+  line-height: 1.27;
+  letter-spacing: -0.76px;
+}
 .main-content {
   width: 1170px;
   margin-left: auto;
@@ -36,6 +43,7 @@ a {
 }
 .btn:hover {
   opacity: 0.8;
+  cursor: pointer;
 }
 
 /* ====================header==================== */
@@ -224,4 +232,103 @@ a {
 }
 .hero .stats {
   margin-top: 8px;
+}
+/* POPULAR */
+.popular {
+  padding: 65px 0;
+  margin-top: 135px;
+}
+.popular .info .desc {
+  font-size: 1.8rem;
+  line-height: 1.67;
+  color: #5f5b53;
+  margin-top: 1.6rem;
+  max-width: 45.8rem;
+}
+.popular .popular-top {
+  display: flex;
+  align-items: center;
+}
+.popular .button {
+  margin-left: auto;
+  gap: 18px;
+}
+.popular-top .button-btn {
+  width: 40px;
+  height: 40px;
+  opacity: 1;
+  border: 1px solid var(--primary-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: transparent;
+}
+.popular-top .button {
+  display: flex;
+}
+.popular-top .button-btn:hover {
+  color: #fff;
+  background: var(--primary-color);
+}
+
+/* bài làm chính */
+.popular .course-list {
+  margin-top: 55px;
+  display: flex;
+  gap: 30px;
+}
+
+.popular .course-item .thumb {
+  width: 100%;
+  border-radius: 12px 12px 0px 0px;
+}
+
+.popular .course-item {
+  border-radius: 12px;
+  box-shadow: 0px 18px 36px 0px #0000000d;
+  background: #ffffff;
+}
+.popular .course-item .info {
+  padding: 16px 22px 22px;
+}
+.popular .course-item .foot,
+.popular .course-item .rating,
+.popular .course-item .head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.popular .course-item .title {
+  color: #171100;
+  font-style: 1.8rem;
+  font-weight: 600;
+  line-height: 1.67;
+}
+.popular .course-item .value {
+  margin-left: 6px;
+  color: #fea31b;
+  font-style: 16px;
+  line-height: 1.75;
+}
+.popular .course-item .desc {
+  margin-top: 6px;
+  font-style: 1.4rem;
+  line-height: 1.86;
+}
+.popular .course-item .foot {
+  margin-top: 12px;
+}
+.popular .course-item .price {
+  color: #171100;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.67;
+}
+.popular .course-item .btn-book {
+  border: none;
+}
+.popular .course-item .btn-book:hover {
+  background: var(--primary-color);
 }
