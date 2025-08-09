@@ -399,3 +399,68 @@ a {
   background: var(--primary-color);
   cursor: default;
 }
+/* Phần LEARNER 1 */
+.learner {
+  padding: 135px 0;
+}
+.learner .body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.learner .picture {
+  display: flex;
+  width: 48%;
+  height: 438px;
+  justify-content: space-between;
+}
+.learner .anh {
+  width: 270px;
+  height: 404px;
+  opacity: 1;
+  border-radius: 16px;
+  object-fit: cover;
+}
+.learner .word {
+  width: 470px;
+  height: 322px;
+}
+.learner .picture .anh2 {
+  margin-bottom: 34px;
+}
+.learner .picture .anh1 {
+  margin-top: 34px;
+}
+.learner p {
+  font-size: 1.6rem;
+  line-height: 28px;
+  color: #5f5b53;
+  margin-top: 1.6rem;
+}
+.learner .word .btn-word {
+  margin-top: 32px;
+}
+.learner .word .btn-word:hover {
+  background-color: var(--primary-color);
+}
+/* Learner2 */
+.learner .btn-join:hover {
+  background-color: var(--primary-color);
+}
+.learner .text {
+  width: 48%;
+}
+.learner .body2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.learner .anh3 {
+  width: 470px;
+  height: 440px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.learner .text .btn-join {
+  margin-top: 32px;
+}
